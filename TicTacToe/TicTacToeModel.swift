@@ -102,7 +102,7 @@ extension TicTacToeModel {
                     .merge(with: Just(()))
                     .sink {
                         store.board = (0..<extra.lines).map { section in
-                            (0..<3).map { Address(id: $0 + section * extra.lines, player: nil) }
+                            (0..<extra.lines).map { Address(id: $0 + section * extra.lines, player: nil) }
                         }
                         store.currentPlayer = .o
                     }
