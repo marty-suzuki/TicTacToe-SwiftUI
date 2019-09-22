@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Ricemill",
+        "repositoryURL": "https://github.com/marty-suzuki/Ricemill",
+        "state": {
+          "branch": "master",
+          "revision": "510ea18137ba56e14969f88290d5862a0e5d3b50",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
