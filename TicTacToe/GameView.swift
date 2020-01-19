@@ -22,7 +22,9 @@ struct GameView: View {
                                 AnyView(Text($0.text).font(.system(size: 50)))
                             } ?? AnyView(
                                 Button(action: { self.viewModel.input.handleAddress.send(address) }) {
-                                    EmptyView()
+                                    Text("")
+                                        .frame(width: 80, height: 80)
+                                        .contentShape(Rectangle())
                                 })
                             )
                             .frame(width: 80, height: 80)
